@@ -34,7 +34,7 @@
 ## Pseudocode
 
 ```
-Hill-Climb(problem):
+HILL-CLIMB(problem):
   current = initial state of problem
   repeat:
     neighbor = best valued neighbor of current

@@ -78,10 +78,10 @@ return s
 or
 
 ```
-Simulated-Annealing(problem, max):
+SIMULATED-ANNEALING(problem, max):
   current = initial state of problem
   for t = 1 to max:
-    T = Temperature(T)
+    T = TEMPERATURE(T)
 	neighbor = random neighbor of current
 	dE = how much better neighbor is than current
 	if dE > 0:
@@ -91,11 +91,11 @@ Simulated-Annealing(problem, max):
 ```
 
 - `max`: the number of times it should repeat itself
-- `Temperature()`: 
+- `TEMPERATURE()`: 
 	- Returns a higher value in the early iterations (when `t` is low)
 	- Returns a lower value in later iterations (when `t` is high)
 - `e^(dE/T)`:
-	- The worse the neighbor state, the less likely it is to be chosen
+	- The worse the neighbour state, the less likely it is to be chosen
 		- The more negative the $\Delta E$ is, the closer the resulting value to 0
 	- The earlier the algorithm is in its process, the more likely it is to set a worse neighbor state as current state
 		- The higher the $T$ is, the closer $\frac{\Delta E}{T}$ is to 0, making the probability closer to 1

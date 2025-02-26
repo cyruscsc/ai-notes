@@ -42,23 +42,23 @@
 ### Max-Value function
 
 ```
-Max-Value(state):
+MAX-VALUE(state):
   v = -inf
   if Terminal(state):
     return Utility(state)
   for action in Actions(state):
-    v = Max(v, Min-Value(Result(state, action)))
+    v = MAX(v, MIN-VALUE(Result(state, action)))
   return v
 ```
 
 ### Min-Value function
 
 ```
-Min-Value(state):
+MIN-VALUE(state):
   v = inf
   if Terminal(state):
     return Utility(state)
   for action in Actions(state):
-    v = Min(v, Max-Value(Result(state, action)))
+    v = MIN(v, MAX-VALUE(Result(state, action)))
   return v
 ```

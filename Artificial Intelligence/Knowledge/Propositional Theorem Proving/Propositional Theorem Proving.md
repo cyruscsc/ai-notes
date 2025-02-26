@@ -5,7 +5,6 @@
 	- E.g. [[Inference Rules]]
 - Sequent calculus
 	- Uses sequents (a set of formulas on the left and a set on the right) to represent the relationship between premises and conclusions
-- [[Model Checking]]
 
 ## Concepts
 

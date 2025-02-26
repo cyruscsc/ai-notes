@@ -37,6 +37,6 @@ x=
 \end{gathered}
 $$
 > $p(x)$: probability of $x$ being in a dataset $\{x^{(1)},\ldots,x^{(m)}\}$
-> $\sigma$: [standard deviation](#Standard%20deviation)
-> $\mu$: [mean](#Mean)
+> $\sigma$: standard deviation
+> $\mu$: mean
 > $\epsilon$: threshold of anomalies

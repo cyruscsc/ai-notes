@@ -1,4 +1,4 @@
-## Generalization
+## Definition
 
 - Model's ability to adapt to new, previously unseen data, drawn from same distribution as one used to create model
 

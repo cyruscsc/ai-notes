@@ -3,7 +3,24 @@
 - Applying a filter that add each pixel value of an image to its neighbours, weighted according to a kernel matrix
 - Doing so alters the image and can help the neural network process it
 
+## Benefits 
+
+### Translation invariance
+
+- Helps recognizing a pattern regardless of where it is in the picture
+
+### Locality
+
+- Processes local pixels together to spot local pattern
+
+### Reduction in weights
+
+- Reduces number of weights required to train
+- Copies of the same filter use the same weight
+
 ## Common kernels
+
+> Note: use multiple kernels/filters to detect different patterns
 
 ### Edge detection
 

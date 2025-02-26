@@ -108,14 +108,14 @@ flowchart LR
 ### Naive approach
 
 ```
-Backtrack(assignment, csp):
+BACKTRACK(assignment, csp):
   if assignment complete:
     return assignment
   var = Select-Unassigned-Var(assignment, csp)
   for value in Domain-Values(var, assignment, csp):
     if value consistent with assignment:
 	  add {var = value} to assignment
-	  result = Backtrack(assignment, csp)
+	  result = BACKTRACK(assignment, csp)
 	  if result != failure:
 	    return result
 	  remove {var = value} from assignment
@@ -135,17 +135,17 @@ Backtrack(assignment, csp):
 ### Maintaining arc consistency
 
 ```
-Backtrack(assignment, csp):
+BACKTRACK(assignment, csp):
   if assignment complete:
     return assignment
   var = Select-Unassigned-Var(assignment, csp)
   for value in Domain-Values(var, assignment, csp):
     if value consistent with assignment:
 	  add {var = value} to assignment
-	  inferences = Inference(assignment, csp)
+	  inferences = INFERENCE(assignment, csp)
 	  if inferences != failure:
 	    add inferences to assignment
-	  result = Backtrack(assignment, csp)
+	  result = BACKTRACK(assignment, csp)
 	  if result != failure:
 	    return result
 	  remove {var = value} and inferences from assignment
@@ -154,7 +154,7 @@ Backtrack(assignment, csp):
 
 - Enforce arc-consistency after every new assignment of the backtracking search
 - After we make a new assignment to `X`, we will call the `AC-3` algorithm and start it with a queue of all arcs `(Y,X)` where `Y` is a neighbor of `X` (and not a queue of all arcs in the problem)
-- `Inference(assignment, csp)`:
+- `INFERENCE(assignment, csp)`:
 	- Runs `AC-3` algorithm with a queue of all arcs `(Y,X)`
 	- Where `Y` is a neighbor of `X` (and not a queue of all arcs in the problem)
 	- Outputs all the inferences that can be made through enforcing arc-consistency

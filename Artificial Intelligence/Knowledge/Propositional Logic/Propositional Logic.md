@@ -39,6 +39,7 @@
 
 ### Model
 
+- An assignment of truth values to all propositional variables in a given set
 - A precise representation of a possible world
 - Assignment of a truth value to every propositional symbol (a "possible world")
 - Propositions are statements about the world that can be either true or false
@@ -47,6 +48,7 @@
 
 ### Knowledge base
 
+- A set of propositions assumed to be true
 - A set of sentences known by a [[Knowledge#Knowledge-based agents|knowledge-based agent]]
 - This is knowledge that the AI is provided about the world in the form of propositional logic sentences that can be used to make additional inferences about the world
 

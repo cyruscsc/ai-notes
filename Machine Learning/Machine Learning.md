@@ -1,5 +1,13 @@
 ## Map
 
+- [[Representation of States]]
+	- [[Atomic Representation]]
+	- [[Factored Representation]]
+	- [[Structured Representation]]
+- [[Hypothesis]]
+- [[Learning Approaches]]
+	- [[Instance-Based Learning]]
+	- [[Model-Based Learning]]
 - [[Supervised Learning]]
 	- [[Classification]]
 	- [[Regression]]
@@ -25,7 +33,7 @@
 	- [[Dataset Splitting]]
 	- [[Learning Curve]]
 	- [[Loss Function]]
-	- [[Overfitting & Underfitting]]
+	- [[Generalization]]
 	- [[Precision]]
 	- [[Recall]]
 	- [[F1 Score]]

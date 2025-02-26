@@ -9,7 +9,8 @@ $$
 > $y$: all the values of the hidden variables $Y$
 > $\alpha$: normalizes the result such that we end up with probabilities that [[Probability#Axioms in probability|add up to 1]]
 
-- A process of finding the [[Probability Distribution]] of variable $X$ given observed evidence $e$ and some hidden variables $Y$
+- A process of finding the **[[Probability Distribution]]** of variable $X$ given observed evidence $e$ and some hidden variables $Y$
+- Generalizes inference to probabilistic reasoning by summing probabilities over hidden variables $y\in Y$
 - The probability distribution of $X$ given $e$ is equal to a normalized probability distribution of $X$ and $e$
 	- Sum the normalized probability of $X$, $e$, and $y$
 	- $y$ takes each time a different value of the hidden variables $Y$

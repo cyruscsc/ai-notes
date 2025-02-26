@@ -20,7 +20,7 @@ flowchart LR
 ### Revise function
 
 ```
-Revise(csp, X, Y):
+REVISE(csp, X, Y):
   revised = false
   for x in X.domain:
     if no y in Y.domain satisfies constraint for (X,Y):

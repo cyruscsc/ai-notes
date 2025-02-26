@@ -4,8 +4,12 @@
 
 ## Algorithms
 
-- [[Resolution]]
-- [[Enumeration]]
+- [[Model Checking]]
+- [[Forward Chaining]]
+- [[Backward Chaining]]
+- [[Truth Table Enumeration]]
+- [[Inference by Resolution]]
+- [[Inference by Enumeration]]
 - [[Sampling]]
 - [[Likelihood Weighting]]
 

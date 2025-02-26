@@ -5,7 +5,7 @@
 - [[Real Number Evaluation]] for [[Anomaly Detection]]
 - [[Dataset Splitting]]
 - [[Debugging & Diagnostic]]
-- [[Overfitting & Underfitting]]
+- [[Generalization]]
 - [[Baseline Level of Performance]]
 - [[Learning Curve]]
 

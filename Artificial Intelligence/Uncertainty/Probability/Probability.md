@@ -12,7 +12,7 @@
 - [[Bayes’ Rules]]
 - [[Probability Rules]]
 - [[Bayesian Network]]
-- [[Enumeration]]
+- [[Inference by Enumeration]]
 
 ## Definition
 
