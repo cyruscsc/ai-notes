@@ -1,3 +1,8 @@
+---
+aliases:
+  - GBFS
+---
+
 ## Characteristics
 
 - Selects locally optimal solution at each stage to traverse through problem space

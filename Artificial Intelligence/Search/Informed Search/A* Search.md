@@ -19,7 +19,7 @@ $$
 
 - [[Heuristic Design#Admissible heuristic|Admissible]]
 	- Never overestimating the true cost
-- [[Heuristic Design#Consistent (monotonic) heuristic|Consistent]]
+- [[Heuristic Design#Consistent heuristic|Consistent]]
 	- $h(n)\le h(n’) + c$
 	- $h(n)$ is consistent if for every node $n$ and successor node $n’$ with step cost $c$
 
