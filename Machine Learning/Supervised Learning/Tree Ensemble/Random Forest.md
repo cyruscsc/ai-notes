@@ -11,7 +11,7 @@
 
 ### Intuition
 
-- Even with [[Bagged Decision Tree#Sampling with replacement|sampling with replacement]] procedure, the [[Bagged Decision Tree]] can sometimes ends up using the same splits
+- Even with [[Bagged Decision Tree#Sampling with replacement|sampling with replacement]] procedure, the [[bagged decision tree]] can sometimes ends up using the same splits
 - [[Bagged Decision Tree#Sampling with replacement|Sampling with replacement]] procedure and randomized feature choice causes algorithm to explore lot of small changes to data
 - Changes are averaged and different decision trees are trained
 - Any further little changes to training set are less likely to have huge impact on output

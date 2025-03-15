@@ -18,7 +18,7 @@
 
 - Uncertainty can be represented as a number of events and the likelihood, or probability, of each of them happening
 - AI can use partial information to make educated guesses about the future
-- To use this information, which affects the probability that the event occurs in the future, we rely on [[Conditional Probability]]
+- To use this information, which affects the probability that the event occurs in the future, we rely on [[conditional probability]]
 
 
 ## Possible worlds

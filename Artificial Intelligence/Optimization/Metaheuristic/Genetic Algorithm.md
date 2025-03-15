@@ -69,9 +69,9 @@ aliases:
 	- Scheduling
 	- Resources allocation
 - [[Machine Learning]]
-	- [[Feature Selection]]
+	- [[Feature selection]]
 	- Hyperparameter tuning
-	- [[Neural Networks]] optimization
+	- [[Neural networks]] optimization
 - Finance
 	- Portfolio optimization
 	- Risk management

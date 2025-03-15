@@ -9,7 +9,7 @@
 
 ## Evaluation
 
-- [[Search Evaluation#Completeness|Completeness]]:  complete if $b$ is finite and if both directions use BFS
+- [[Search Evaluation#Completeness|Completeness]]:  complete if $b$ is finite and if both directions use [[Breadth-First Search|BFS]]
 - [[Search Evaluation#Optimality|Optimality]]:  optimal if step costs are identical and both directions use BFS
 - [[Search Evaluation#Time complexity|Time complexity]]:  $O(b^{\frac{d}{2}})$
 - [[Search Evaluation#Space complexity|Space complexity]]:  $O(b^{\frac{d}{2}})$

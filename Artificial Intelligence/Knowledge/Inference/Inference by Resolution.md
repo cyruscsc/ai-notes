@@ -20,7 +20,7 @@
 
 ## Characteristics
 
-- Use the [[Unit Resolution]] rule to draw inference
+- Use the [[unit resolution]] rule to draw [[inference]]
 - Input clauses must be in [[Conjunction Normal Form|CNF]]
 - Resolve [[Unit Resolution#Complementary literals|complementary clauses]] to get a new clause
 

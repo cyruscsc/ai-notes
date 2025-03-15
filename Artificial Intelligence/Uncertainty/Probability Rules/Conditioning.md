@@ -14,6 +14,6 @@ $$
 P(X=x_i)=\sum_jP(X=x_i|Y=y_j)P(Y=y_j)
 $$
 
-- The [[Random Variable]] $X$ takes the value $x_i$ with probability that is equal to the sum of the probabilities of $x_i$ given each value of the [[Random Variable]] $Y$ multiplied by the probability of variable $Y$ taking that value
-- Multiply $P(a|b)={P(a,b)}{P(b)}$ by $P(b)$, end up with $P(a,b)$  (see [[Conditional Probability]])
-- Then do the same as we did with [[Marginalization]]
+- The [[random variable]] $X$ takes the value $x_i$ with probability that is equal to the sum of the probabilities of $x_i$ given each value of the [[random variable]] $Y$ multiplied by the probability of variable $Y$ taking that value
+- Multiply $P(a|b)={P(a,b)}{P(b)}$ by $P(b)$, end up with $P(a,b)$  (see [[conditional probability]])
+- Then do the same as we did with [[marginalization]]

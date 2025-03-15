@@ -1,6 +1,6 @@
 ## Definition
 
-- A type of a Markov model for a system with hidden states that generate some observed event
+- A type of a [[Markov model]] for a system with hidden states that generate some observed event
 - Sometimes the AI has some measurement of the world but no access to the precise state of the world
 	- Hidden state: the state of the world
 	- Observations: whatever data the AI has access to
@@ -28,7 +28,7 @@
 
 - Hidden state: the weather
 - Observation: indoor camera that records how many people brought umbrellas with them
-- **Sensor model** (aka **emission model**, also see [[Sensor Markov Assumption]]):
+- **Sensor model** (aka **emission model**, also see [[sensor Markov assumption]]):
 
 ||$E_{umbrella}$|$E_{no umbrella}$|
 |:-:|:-:|:-:|

@@ -7,7 +7,7 @@ aliases:
 
 - Selects locally optimal solution at each stage to traverse through problem space
 - Expands the node that is the closest to the goal
-	- As determined by a [[Heuristic]] function $h(n)$
+	- As determined by a [[heuristic]] function $h(n)$
 	- Better solutions may be found by exploring other nodes
 - Look at distance between node `n` and target
 	- Does not take into account the cost of travelling from node `n-1` to node `n`

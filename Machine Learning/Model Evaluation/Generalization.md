@@ -22,5 +22,5 @@
 ## Addressing overfitting
 
 - Collect more data
-- [[Feature Selection]]
+- [[Feature selection]]
 - [[Regularization]]

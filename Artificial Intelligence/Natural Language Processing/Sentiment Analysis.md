@@ -17,7 +17,7 @@ P(positive|my,grandson,loved,it)&=\frac{P(positive)P(my,grandson,loved,it|positi
 \end{aligned}
 $$
 
-- Calculating this [[Joint Probability]] is complicated
+- Calculating this [[joint probability]] is complicated
 - The probability of each word is conditioned on the probabilities of the words preceding it
 
 
@@ -36,7 +36,7 @@ $$
 
 - Assume that the probability of each word is independent from other words
 - This is not true, but despite this imprecision, [[Naive Bayes]] produces a good sentiment estimate
-- Sensitive to words that occur more often in one type of sentence than in the other
+- Sensitive to words that occur more often in one type of [[sentence]] than in the other
 
 > The probability of a positive or a negative sentence:
 > 

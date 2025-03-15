@@ -18,7 +18,7 @@ $$
 > $b$: parameter
 
 - Also known as **squared error cost function**
-- To minimize cost function $J(\vec{w},b)$, see [[Gradient Descent]]
+- To minimize cost function $J(\vec{w},b)$, see [[gradient descent]]
 
 ## Code examples
 

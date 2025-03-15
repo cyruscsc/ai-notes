@@ -1,8 +1,8 @@
 ## Definition
 
 - Given a training set of size $m$, for $b=1$ to $B$:
-	- Use [[#Sampling with replacement]] to create a new training set of size $m$
-	- Train a [[Decision Tree]] on the new training set
+	- Use [[#sampling with replacement]] to create a new training set of size $m$
+	- Train a [[decision tree]] on the new training set
 
 > Note: choice of $B$ can be around 100 (64, 128, etc.)
 

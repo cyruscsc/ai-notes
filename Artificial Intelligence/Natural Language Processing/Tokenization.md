@@ -14,7 +14,7 @@
 	- E.g. "remains,"
 - Cannot simply remove punctuation from words with apostrophes and hyphens
 	- E.g. "o'clock", "pearl-grey"
-- Some punctuation is important for sentence structure
+- Some punctuation is important for [[sentence]] structure
 	- E.g. periods
 - Some punctuation may appear at the end of a word or a sentence
 	- E.g. "Mr.", "goodbye."

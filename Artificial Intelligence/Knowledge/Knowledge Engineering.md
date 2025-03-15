@@ -110,5 +110,5 @@ knowledge = And(
 
 #### Limitation
 
-- Representing the puzzle’s conditions in propositional logic is quite cumbersome
+- Representing the puzzle’s conditions in [[propositional logic]] is quite cumbersome
 - A solution to this inefficiency is offered in the section on first order logic

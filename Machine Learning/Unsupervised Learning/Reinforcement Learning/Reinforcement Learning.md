@@ -11,7 +11,7 @@
 ## Characteristics
 
 - After each action, the agent gets feedback in the form of reward or punishment
-- Can be viewed as a [[Markov Decision Process]]
+- Can be viewed as a [[Markov decision process]]
 
 ## Approach
 

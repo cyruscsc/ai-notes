@@ -7,7 +7,7 @@ aliases:
 
 - An instance of [[Depth-First Search|DFS]] increasing the depth limit $l$ gradually until a goal is found
 - Combines benefits of [[Breadth-First Search|BFS]] and DFS
-- The preferred [[Uninformed Search]] approach when the search space is large and the depth of the solution is unknown
+- The preferred [[uninformed search]] approach when the search space is large and the depth of the solution is unknown
 
 ## Evaluation
 

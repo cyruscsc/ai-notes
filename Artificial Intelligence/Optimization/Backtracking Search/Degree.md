@@ -12,7 +12,7 @@
 
 ## Examples
 
-> Using example from Constraint Satisfaction for explanation
+> Using [[Constraint Satisfaction#Examples|example from Constraint Satisfaction]] for explanation
 
 ```mermaid
 flowchart LR

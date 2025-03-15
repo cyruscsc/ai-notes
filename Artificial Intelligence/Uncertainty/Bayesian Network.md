@@ -9,7 +9,7 @@
 - An arrow from X to Y represents that X is a parent of Y
 	- The probability distribution of Y depends on the value of X
 	- Parents include only direct relations
-- Each node X has [[Probability Distribution]] $P(X|Parents(X))$
+- Each node X has [[probability distribution]] $P(X|Parents(X))$
 
 ## Example
 
@@ -34,7 +34,7 @@ flowchart  TD
 
 - `Rain` is the root node
 - Can take the values `{none, light, heavy}`
-- [[Unconditional Probability]]
+- [[Unconditional probability]]
 - Its probability distribution is not reliant on any prior event
 
 ### Maintenance
@@ -48,7 +48,7 @@ flowchart  TD
 - Encodes whether there is train track maintenance
 - Can take values `{yes, no}`
 - `Maintenance` is a child node of `Rain`
-- [[Conditional Probability]]
+- [[Conditional probability]]
 - The probability distribution of `Maintenance` is affected by `Rain`
 
 ### Train
@@ -65,7 +65,7 @@ flowchart  TD
 - Encodes whether the train is on time or delayed
 - Can take values `{on time, delayed}`
 - `Train` is a child node of both `Rain` and `Maintenance`
-- [[Conditional Probability]]
+- [[Conditional probability]]
 - The probability distribution of `Train` is affected by both `Rain` and `Maintenance`
 
 ### Appointment
@@ -78,7 +78,7 @@ flowchart  TD
 - Represents whether we attend our appointment
 - Can take values `{attend, miss}`
 - `Appointment` is a child node of `Train`
-- [[Conditional Probability]]
+- [[Conditional probability]]
 - The probability distribution of `Appointment` is affected by `Train`
 	- `Maintenance` affects `Train`, and `Train` affects `Appointment`
 	- However, in the end, what directly affects `Appointment` is `Train`
@@ -94,4 +94,4 @@ P(light,no,delayed,miss)&=P(light)P(no|light)P(delyaed|light,no)P(miss|delayed)\
 \end{aligned}
 $$
 
-> $P(light,no,delayed,miss)$: the [[Joint Probability]] of missing the meeting when the train was delayed on a day with no maintenance and light rain
+> $P(light,no,delayed,miss)$: the [[joint probability]] of missing the meeting when the train was delayed on a day with no maintenance and light rain

@@ -16,5 +16,5 @@
 - Train the model on a text
 - Establish probabilities for every *n*-th token in an [[n-grams|n-gram]] based on the *n* words preceding it
 - E.g. using trigrams, after the model has two words:
-	- It can choose a third word from a probability distribution based on the first two words
+	- It can choose a third word from a [[probability distribution]] based on the first two words
 	- It can choose a fourth word from a probability distribution based on the second and third words

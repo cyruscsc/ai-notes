@@ -1,5 +1,5 @@
 ---
-aliases
+aliases:
   - DQN
 ---
 
@@ -109,9 +109,9 @@ $$
 - Refinement:
 	- Pick subset of $m’$ (1,000) training examples instead of all $m$ (10,000) examples on every iteration 
 - Reason:
-	- More efficient gradient descent calculation and learning algorithm
+	- More efficient [[gradient descent]] calculation and learning algorithm
 
-> Note: can be applied to supervised learning as well
+> Note: can be applied to [[supervised learning]] as well
 
 ### Soft update
 

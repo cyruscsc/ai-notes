@@ -3,7 +3,7 @@
 $$
 IG=H(p_1^\text{root})-(w^\text{left}H(p_1^\text{left})+w^\text{right}H(p_1^\text{right}))
 $$
-> $H$: entropy
+> $H$: [[entropy]]
 > $p_1$: fraction of true examples
 > $w$: fraction of examples in sub-branch
 

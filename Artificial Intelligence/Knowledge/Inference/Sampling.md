@@ -1,10 +1,10 @@
 ## Characteristics
 
-- One technique of approximate inference
-- Each variable is sampled for a value according to its [[Probability Distribution]]
+- One technique of approximate [[inference]]
+- Each variable is sampled for a value according to its [[probability distribution]]
 - Can be inefficient when the evidence has a low probability
 	- We may end up discarding many samples that do not match the evidence
-	- Can get around with [[Likelihood Weighting]]
+	- Can get around with [[likelihood weighting]]
 
 ## Example
 
@@ -24,7 +24,7 @@ $$
 2. Count the number of samples where `Train` is `on time`
 3. Divide the result by the total number of samples
 
-> See [[Unconditional Probability]]
+> See [[unconditional probability]]
 
 ### Conditional probability
 
@@ -41,7 +41,7 @@ $$
 3. Count the number of samples where `Rain` is `light`
 4. Divide the result by the total number of samples where `Train` is `on time`
 
-> See [[Conditional Probability]]
+> See [[conditional probability]]
 
 ## Code examples
 

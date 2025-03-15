@@ -1,6 +1,6 @@
 ## Definition
 
-- The sentence structure
+- The [[sentence]] structure
 
 ## Characteristics
 

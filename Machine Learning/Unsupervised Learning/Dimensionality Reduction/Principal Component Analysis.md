@@ -3,55 +3,83 @@ aliases:
   - PCA
 ---
 
+## Definition
+
+- A [[dimensionality reduction]] technique that transforms a high-dimensional dataset into a lower-dimensional space while preserving as much information as possible
+
+## Process
+
+### Step 1: data centering
+
+$$
+X_c=X-\bar{x}
+$$
+
+> $X_c$: centered matrix
+> $X\in\mathbb{R}^{m\times n}$: a matrix with $m$ observations and $n$ variables
+> $\bar{x}$: vector of mean of each variable
+
+### Step 2: covariance matrix computation
+
+$$
+\begin{aligned}
+C&=\frac{1}{m-1}(X-\bar{x})^T(X-\bar{x})\\
+&=\frac{1}{m-1}(X_c)^T(X_c)
+\end{aligned}
+$$
+
+- Covariance matrix $C$ is calculated to identify correlations between variables
+- For dataset $X$ with $n$ variables, $C\in\mathbb{R}^{n\times n}$ is a $n\times n$ symmetric matrix
+- Where $c_{ij}=\frac{1}{m-1}\sum_{k=1}^m(x_{ki}-\bar{x}_i)(x_{kj}-\bar{x}_j)$
+- Every covariance matrix is symmetric, so the eigenvectors are always orthogonal
+
+### Step 3: eigenvector and eigenvalue computation
+
+- Solve $\det(C-\lambda I)=0$ to get the eigenvalue(s) $\lambda$
+- For each [[Eigenvalue and Eigenvector|eigenvalue]], solve $(C-\lambda I)v=0$ to get the corresponding [[Eigenvalue and Eigenvector|eigenvector]] $v$
+
+### Step 4: principal component selection
+
+- Sort the eigenvectors in descending order of their corresponding eigenvalues
+- The $k$ eigenvectors with the largest eigenvalues are selected as the principal components
+- Where $k$ is the desired number of dimensions in the reduced space
+
+### Step 5: data projection
+
+$$
+T=X_cV
+$$
+
+> $V$: the matrix of selected eigenvectors
+
+- Project the original data onto the new subspace defined by the selected principal components
+
 ## Characteristics
 
-- Find new axes and coordinates to reduce to number of features
-- Commonly used for visualization (high dimensional to 2D or 3D)
+- **Variance maximization**:
+	- The first principal component maximizes the variance of the projected data
+	- Each subsequent component maximizes the remaining variance while being orthogonal to all previous components
+- **Orthogonality**
+	- Principal components are orthogonal to each other
+	- Their [[dot product]] is zero
+- **Linear combinations**: each principal component is a linear combination of the original variables
+- **Eigenvalue interpretation**: the eigenvalue $\lambda_i$ associated with the $i^{th}$ principal component represents the amount of variance explained by that component
 
-## Algorithm
+## Example
 
-1. Preprocess features
-	- [[Mean Normalization|Normalize]] data to have zero mean
-	- Apply [[Feature Scaling|feature scaling]]
-2. Find principal component $z$
-	- The axis with maximum variance of data projection
-	- Capture most information from data
-3. Coordinate on new axis $z$
-	$$
-	z=u\cdot\hat{v}
-	$$
-    > $z$: distance from origin
-     > $u$: vector of original data coordinates
-     > $\hat{v}$: unit vector
-     > Example: $\begin{bmatrix}2\\3\end{bmatrix}\cdot\begin{bmatrix}0.71\\0.71\end{bmatrix}=3.55$
+Given a dataset $X=\begin{bmatrix}2&3\\3&6\\4&8\\5&11\end{bmatrix}$ with 4 observations and 2 features
 
-## More principal components (PCs)
+Apply data centering, we have  $X_c=\begin{bmatrix}2&3\\3&6\\4&8\\5&11\end{bmatrix}-\begin{bmatrix}3.5\\7\end{bmatrix}=\begin{bmatrix}-1.5&-4\\-0.5&-1\\0.5&1\\1.5&4\end{bmatrix}$
 
-- $1^{st}$ principal component $z_1$
-- $2^{nd}$ principal component $z_2$
-- $3^{rd}$ principal component $z_3$
-- A PC is always perpendicular to the previous PC(s)
-	- $2^{nd}$ PC is at $90\degree$ to $1^{st}$ PC
-	- $3^{rd}$ PC is at $90\degree$ to $1^{st}$ PC and $2^{nd}$ PC
+Covariance matrix $C=\frac{1}{4-1}\begin{bmatrix}-1.5&-0.5&0.5&1.5\\-4&-1&1&4\end{bmatrix}\begin{bmatrix}-1.5&-4\\-0.5&-1\\0.5&1\\1.5&4\end{bmatrix}=\begin{bmatrix}0.833&2.333\\2.333&7.333\end{bmatrix}$
 
-## Approximation to original data
+Solve $\det(\begin{bmatrix}0.833&2.333\\2.333&7.333\end{bmatrix}-\lambda I)=0$, we have $\lambda_1=8$ and $\lambda_2=0.167$
 
-$$
-u=z\times\hat{v}
-$$
-> $u$: vector of original data coordinates
-> $z$: distance from origin
-> $\hat{v}$: unit vector
-> Example: $3.55\times\begin{bmatrix}0.71\\0.71\end{bmatrix}=\begin{bmatrix}0.52\\0.52\end{bmatrix}$
+Substitue $\lambda_1$ and $\lambda_2$ into $(C-\lambda I)v=0$, we have $v_1=\begin{bmatrix}0.303\\0.953\end{bmatrix}$ and $v_2=\begin{bmatrix}-0.953\\0.303\end{bmatrix}$
 
-- **Reconstruction** = given $z$, find original $(x_1,x_2)$ (approximately)
+From $\lambda_1,v_1$ and $\lambda_2,v_2$, $\lambda_1,v_1$ is chosen because of the higher eigenvalue
 
-## PCA vs linear regression
-
-| Algorithm         |     Type     |   Axes    | Objective                        |
-| :---------------- | :----------- | :-------: | :------------------------------- |
-| Linear regression |  Supervised  |   $x,y$   | Minimize distance along $y$ axis |
-| PCA               | Unsupervised | $x_1,x_2$ | Retain maximum variance          |
+To project data, compute $T=X_cV$ where $V=v_1=\begin{bmatrix}0.303\\0.953\end{bmatrix}$
 
 ## Code examples
 

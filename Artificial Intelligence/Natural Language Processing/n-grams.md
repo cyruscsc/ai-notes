@@ -13,9 +13,9 @@
 ## Characteristics
 
 - Useful for text processing
-- While the AI hasn’t necessarily seen the whole sentence before, it sure has seen parts of it
+- While the AI hasn’t necessarily seen the whole [[sentence]] before, it sure has seen parts of it
 - Since some words occur together more often than others, it is possible to also predict the next word with some probability
-	- E.g. a smartphone suggests words to you based on a probability distribution derived from the last few words you typed
+	- E.g. a smartphone suggests words to you based on a [[probability distribution]] derived from the last few words you typed
 
 ## Example
 

@@ -5,7 +5,7 @@ P(A\land B)=P(A)P(B)
 $$
 
 - The likelihood of multiple events all occurring
-- Can be used to deduce [[Conditional Probability]]
+- Can be used to deduce [[conditional probability]]
 
 ## Example
 
@@ -16,7 +16,7 @@ $$
 
 - The probabilities of clouds in the morning and rain in the afternoon
 - Represents the co-occurrence of the events by joint probabilities
-- To find the [[Probability Distribution]] of clouds in the morning given rain in the afternoon:
+- To find the [[probability distribution]] of clouds in the morning given rain in the afternoon:
 
 $$
 \begin{aligned}

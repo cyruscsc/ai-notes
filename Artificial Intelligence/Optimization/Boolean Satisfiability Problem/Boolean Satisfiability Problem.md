@@ -27,8 +27,8 @@ aliases:
 
 ### Heuristic methods
 
-- Approximate solutions with [[Heuristic]] for large instances 
-- E.g. [[Local Search]], [[Genetic Algorithm]]
+- Approximate solutions with [[heuristic]] for large instances 
+- E.g. [[local search]], [[genetic algorithm]]
 
 ## Related concepts
 

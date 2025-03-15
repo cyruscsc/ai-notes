@@ -65,7 +65,7 @@ $$
 
 - Derived from statistics using [[Maximum Likelihood Estimation|MLE]]
 - Also known as **binary cross entropy**
-- To minimize cost function $J(\vec{w},b)$, see [[Gradient Descent]]
+- To minimize cost function $J(\vec{w},b)$, see [[gradient descent]]
 
 ### Logistic loss function
 $$

@@ -91,4 +91,4 @@ flowchart LR
 ### Approach
 
 - Going about a constraint satisfaction problem naively, as a regular search problem, is massively inefficient
-- Can use [[Backtracking Search]] to solve it more efficiently
+- Can use [[backtracking search]] to solve it more efficiently

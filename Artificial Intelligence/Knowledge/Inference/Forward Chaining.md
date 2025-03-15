@@ -2,11 +2,11 @@
 
 - Data-driven
 - [[Breadth-First Search|BFS]], goes through all known facts
-- Starts with known facts and applies inference rules to derive new facts until a goal is reached
+- Starts with known facts and applies [[inference rules]] to derive new facts until a goal is reached
 
 ## Evaluation
 
-- Sound and complete for [[Horn Clause]] based KB
+- Sound and complete for [[horn clause]] based KB
 - Time complexity: $O(n)$
 
 ## Example

@@ -1,6 +1,6 @@
 ## Definition
 
-- A backtracking-based search algorithm designed to determine the [[Satisfiability]] of [[Propositional Logic]] formulas in [[Conjunction Normal Form]]
+- A backtracking-based search algorithm designed to determine the [[satisfiability]] of [[propositional logic]] formulas in [[conjunction normal form]]
 
 ## Characteristics
 

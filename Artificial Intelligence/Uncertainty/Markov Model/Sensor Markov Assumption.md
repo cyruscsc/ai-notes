@@ -8,7 +8,7 @@
 
 ## Characteristics
 
-- Can be represented in a [[Markov Chain]] with two layers
+- Can be represented in a [[Markov chain]] with two layers
 - Top layer: $X$, stands for the hidden state
 - Bottom layer: $E$, stands for the evidence, the observations that we have
 
@@ -40,16 +40,16 @@ flowchart LR
 
 ### Filtering
 
-- Given observations from start until now, calculate the [[Probability Distribution]] for the current state
+- Given observations from start until now, calculate the [[probability distribution]] for the current state
 - E.g. given information on when people bring umbrellas form the start of time until today, we generate a probability distribution for whether it is raining today or not
 
 ### Prediction
 
-- Given observations from start until now, calculate the [[Probability Distribution]] for a future state
+- Given observations from start until now, calculate the [[probability distribution]] for a future state
 
 ### Smoothing
 
-- Given observations from start until now, calculate the [[Probability Distribution]] for a past state
+- Given observations from start until now, calculate the [[probability distribution]] for a past state
 - E.g. calculating the probability of rain yesterday given that people brought umbrellas today
 
 ### Most likely explanation

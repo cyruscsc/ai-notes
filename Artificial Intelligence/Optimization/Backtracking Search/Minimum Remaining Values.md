@@ -6,7 +6,7 @@ aliases:
 ## Idea
 
 - Select the variable that has the smallest domaon
-- If a variable’s domain was constricted by [[Inference]], and now it has only one value left (or even if it’s two values), then by making this assignment we will reduce the number of backtracks we might need to do later
+- If a variable’s domain was constricted by [[inference]], and now it has only one value left (or even if it’s two values), then by making this assignment we will reduce the number of backtracks we might need to do later
 - We will have to make this assignment sooner or later, since it’s inferred from enforcing arc-consistency
 - If this assignment brings to failure, it is better to find out about it as soon as possible and not backtrack later
 
@@ -17,7 +17,7 @@ aliases:
 
 ## Examples
 
-> Using example from Constraint Satisfaction for explanation
+> Using [[Constraint Satisfaction#Examples|example from Constraint Satisfaction]] for explanation
 
 ```mermaid
 flowchart LR

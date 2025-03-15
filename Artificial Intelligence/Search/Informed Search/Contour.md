@@ -14,5 +14,5 @@
 	- Those nodes / subtrees are pruned
 	- This is what makes it optimally efficient
 
-> $f(n)$: [[Heuristic]]
+> $f(n)$: [[heuristic]]
 > $C^*$: cost of the optimal solution

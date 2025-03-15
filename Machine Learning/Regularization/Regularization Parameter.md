@@ -35,7 +35,7 @@ $$
 > $\lambda$: regularization parameter
 
 - Same equation for both [[Linear Regression|linear regression]] and [[Logistic Regression|logistic regression]], except different definitions of $f_{\vec{w},b}(\vec{x}^{(i)})$
-- See [[Gradient Descent]]
+- See [[gradient descent]]
 
 ## Code examples
 

@@ -1,6 +1,6 @@
 ## Definition
 
-- The text is abstracted from its meaning to represent the structure of the sentence using formal grammar
+- The text is abstracted from its meaning to represent the structure of the [[sentence]] using formal grammar
 - Where **formal grammar** is a system of rules for generating sentences in a language
 
 ## Characteristics

@@ -1,6 +1,6 @@
 ## Definition
 
-- A stochastic [[Local Search]] algorithm used for solving [[Boolean Satisfiability Problem|SAT]]
+- A stochastic [[local search]] algorithm used for solving [[Boolean Satisfiability Problem|SAT]]
 
 ## Characteristics
 

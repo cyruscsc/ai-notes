@@ -18,6 +18,6 @@ $$
 P(X=x_i)=\sum_jP(X=x_i,Y=y_j)
 $$
 
-- Left part: the probability of [[Random Variable]] $X$ having the value $x_i$
-- Right part: sum of all the [[Joint Probability|joint probabilities]] of $x_i$ and every single value of the [[Random Variable]] $Y$
+- Left part: the probability of [[random variable]] $X$ having the value $x_i$
+- Right part: sum of all the [[Joint Probability|joint probabilities]] of $x_i$ and every single value of the [[random variable]] $Y$
 - E.g. $P(C=cloud)=P(C=cloud,R=rain)+P(C=cloud,R=\neg rain)$$=0.08+0.32=0.4$

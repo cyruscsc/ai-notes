@@ -20,7 +20,7 @@ aliases:
 
 ## Disadvantages
 
-- Requires careful [[Feature Engineering]] and tuning to avoid overfitting [[Generalization#Overfitting|overfitting]]
+- Requires careful [[feature engineering]] and tuning to avoid overfitting [[Generalization#Overfitting|overfitting]]
 - May struggle with highly complex relationships if the model is not appropriate
 
 ## Examples

@@ -1,10 +1,10 @@
 ## Definition
 
-- Regression with decision tree; predicting a number
+- [[Linear Regression|Regression]] with [[decision tree]]; predicting a number
 
 ## Choosing a split
 
-- Reduce the variance instead of entropy of the values in each sub-branch
+- Reduce the variance instead of [[entropy]] of the values in each sub-branch
 - Reduction in weighted average variance
 
 $$

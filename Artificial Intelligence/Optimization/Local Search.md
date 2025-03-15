@@ -2,7 +2,7 @@
 
 - A search algorithm that maintains a single node and searches by moving to a neighbouring node
 - Interested in finding the best answer to a question
-- Interested only in the answer rather than the path to the answer as in [[Search]]
+- Interested only in the answer rather than the path to the answer as in [[search]]
 
 ## Characteristics
 

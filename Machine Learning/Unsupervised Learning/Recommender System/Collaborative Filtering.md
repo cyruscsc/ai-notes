@@ -33,7 +33,7 @@ $$
 > $g$: [[Logistic Regression#Sigmoid logistic function|sigmoid function]]
 
 - Fit a different [[Linear Regression#Model function|regression model]] or [[Logistic Regression#Model function|classification model]] to each user
-- For regression, the model performs better with [[Mean Centring]] or [[Mean Normalization]]
+- For regression, the model performs better with [[mean centring]] or [[mean normalization]]
 
 ## Cost function
 

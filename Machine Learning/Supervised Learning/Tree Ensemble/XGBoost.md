@@ -11,9 +11,9 @@
 ## Modification to bagged decision tree
 
 - Deliberate practice
-- Similar to [[Bagged Decision Tree]] on creating new training set
+- Similar to [[bagged decision tree]] on creating new training set
 - But more likely to pick misclassified examples from previously trained trees, instead of picking from all examples with equal ($\frac1m$) probability
-- Get the next [[Decision Tree]] to do well on those misclassified examples
+- Get the next [[decision tree]] to do well on those misclassified examples
 
 ## Code examples
 

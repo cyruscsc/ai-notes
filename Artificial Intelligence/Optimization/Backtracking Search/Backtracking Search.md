@@ -3,7 +3,7 @@
 - An instance of [[Depth-First Search|DFS]] that uses less memory (only $O(m)$ is required)
 - Only one successor is generated at a time
 - Additionally, state description can be generated through modifications rather than copying
-- A type of a search algorithm that takes into account the structure of a [[Constraint Satisfaction]] search problem
+- A type of a search algorithm that takes into account the structure of a [[constraint satisfaction]] search problem
 - A recursive function that attempts to continue assigning values as long as they satisfy the constraints
 - If constraints are violated, it tries a different assignment
 
@@ -94,14 +94,14 @@ flowchart LR
 
 ## Improving efficiency
 
-- Interleaving backtracking search with inference (enforcing [[Arc Consistency]])
-	- Although backtracking search is more efficient than simple [[Search]], it still takes a lot of computational power
+- Interleaving backtracking search with inference (enforcing [[arc consistency]])
+	- Although backtracking search is more efficient than simple [[search]], it still takes a lot of computational power
 	- Enforcing arc consistency, on the other hand, is less resource intensive
-- Use of [[Heuristic|heuristics]]
+- Use of [[heuristic]]
 	- Instead of selecting an unassigned variable randomly
 	- Some choices are more likely to bring to a solution faster than others
-	- For `Select-Unassigned-Var()`: [[Minimum Remaining Values]], [[Degree]]
-	- For `Domain-Values()`: [[Least Constraining Values]]
+	- For `Select-Unassigned-Var()`: [[minimum remaining values]], [[degree]]
+	- For `Domain-Values()`: [[least constraining values]]
 
 ## Pseudocode
 

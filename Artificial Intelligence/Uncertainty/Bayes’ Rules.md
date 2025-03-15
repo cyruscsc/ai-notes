@@ -4,7 +4,7 @@ $$
 P(b|a)=\frac{P(b)P(a|b)}{P(a)}
 $$
 
-- Commonly used in probability theory to compute [[Conditional Probability]]
+- Commonly used in probability theory to compute [[conditional probability]]
 - Knowing the conditional probability of a visible effect given an unknown cause, $P(visible effect|unknown cause)$, allows us to calculate the probability of the unknown cause given the visible effect, $P(unknown cause|visible effect)$
 
 ## Example
