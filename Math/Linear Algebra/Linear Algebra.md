@@ -37,3 +37,5 @@
 	- [[Standard Matrix]]
 	- [[Eigenvalue and Eigenvector]]
 	- [[Eigenbasis]]
+- [[Discrete Dynamical System]]
+	- [[Markov Matrix]]

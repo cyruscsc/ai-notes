@@ -7,3 +7,4 @@
 	- [[Vector Algebra]]
 	- [[Matrix Algebra]]
 	- [[Linear Transformation]]
+	- [[Discrete Dynamical System]]
