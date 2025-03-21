@@ -8,3 +8,9 @@
 	- [[Matrix Algebra]]
 	- [[Linear Transformation]]
 	- [[Discrete Dynamical System]]
+- [[Calculus]]
+	- [[Differentiation]]
+	- [[Differentiation Rules]]
+	- [[Differentiation Approaches]]
+	- [[Common Derivatives]]
+
