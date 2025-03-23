@@ -10,6 +10,6 @@
 ## Challenges
 
 - Sequential training of word after word in calculations in [[Recurrent Neural Networks|RNN]] can be time-consuming
-- With the growth of large language models, they take longer and longer to train
+- With the growth of [[large language models]], they take longer and longer to train
 - A desire for parallelism has steadily grown as larger and larger datasets need to be trained
 - See [[Transformers]]

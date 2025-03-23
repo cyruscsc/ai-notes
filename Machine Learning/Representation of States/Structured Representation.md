@@ -1,7 +1,7 @@
 ## Definition
 
 - States explicitly define objects and their relationships
-- Enables the modeling of complex interactions 
+- Enables the modelling of complex interactions 
 
 ## Applications
 
