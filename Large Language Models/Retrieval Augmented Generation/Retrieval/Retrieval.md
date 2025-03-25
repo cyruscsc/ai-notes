@@ -1,6 +1,6 @@
 ## Definition
 
-- Retrieve relevant documents from the data source
+- Identifies relevant information from the indexed data based on a user query
 
 ## Related issues
 

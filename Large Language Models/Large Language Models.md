@@ -35,3 +35,4 @@ aliases:
 	- [[Retrieval]]
 	- [[Augmentation]]
 	- [[Generation]]
+	- [[RAG Evaluation]]

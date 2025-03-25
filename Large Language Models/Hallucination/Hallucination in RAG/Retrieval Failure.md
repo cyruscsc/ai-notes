@@ -22,7 +22,7 @@
 > ```
 
 - Blind retrieval for queries that do not require external knowledge can counterproductively lead to misleading responses
-- Can be addressed by shifting from passive retrieval to adaptive retrieval
+- Can be addressed by shifting from passive retrieval to [[adaptive retrieval]]
 - Decisions can base on [[heuristic]] or self-aware judgement
 
 ### Ambiguous queries

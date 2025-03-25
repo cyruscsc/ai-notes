@@ -17,8 +17,17 @@ aliases:
 - [[Indexing]]
 	- [[Indexing Optimization]]
 - [[Retrieval]]
+	- [[Retrieval Source]]
+	- [[Query Optimization]]
+	- [[Retrieval Embedding]]
+	- [[Retrieval Adapter]]
 - [[Augmentation]]
+	- [[Iterative Retrieval]]
+	- [[Recursive Retrieval]]
+	- [[Adaptive Retrieval]]
 - [[Generation]]
+	- [[Content Curation]]
+	- [[Fine-Tuning]]
 
 ## Benefits
 

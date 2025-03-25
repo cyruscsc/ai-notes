@@ -1,6 +1,6 @@
 ## Definition
 
-- The generation of outputs that are inconsistent with real-world facts or unverifiable
+- The [[generation]] of outputs that are inconsistent with real-world facts or unverifiable
 
 ## Types
 

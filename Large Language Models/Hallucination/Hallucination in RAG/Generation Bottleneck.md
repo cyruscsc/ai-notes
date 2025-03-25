@@ -1,6 +1,6 @@
 ## Definition
 
-- The generation stage can encounter significant bottlenecks that may lead to hallucinations
+- The [[generation]] stage can encounter significant bottlenecks that may lead to hallucinations
 
 ## Contextual awareness
 
@@ -8,7 +8,7 @@
 
 ### Noisy context
 
-- The failure in the [[retrieval]] process may inevitably introduce irrelevant information, which will propagate into the generation stage
+- The failure in the [[retrieval]] process may inevitably introduce irrelevant information, which will propagate into the [[generation]] stage
 - When the generator is not robust enough to these irrelevant retrievals, it will mislead the generator and even introduce hallucinations
 - Can train [[Large Language Models|LLMs]] to ignore irrelevant contexts by incorporating irrelevant contexts in training data
 
@@ -17,7 +17,7 @@
 - Situations where contextual knowledge contradicts [[Large Language Models|LLMs]]’ parametric knowledge
 - [[Large Language Models|LLMs]] may sometimes exhibit over-confidence, which can bring new challenges to the faithfulness of [[Retrieval Augmented Generation|RAG]] systems
 - Can [[Fine-Tuning|fine-tune]] [[Large Language Models|LLMs]] based on counterfactual data augmentation
-- Can guide the generation process by prompting-based strategies
+- Can guide the [[generation]] process by prompting-based strategies
 
 ### Context utilization
 
@@ -32,8 +32,8 @@
 
 ### Source attribution
 
-- The process by which the model identifies and utilizes the origins of information within its generation process
-- Plan-then-generate: guide the LLM's generation process
+- The process by which the model identifies and utilizes the origins of information within its [[generation]] process
+- Plan-then-generate: guide the LLM's [[generation]] process
 - Generate-then-reflect: empower the LLM to critique its own generation to ensure attributability
 - Self-attribution: utilizes model-internal signals to pair context-sensitive answer tokens with retrieved documents
 

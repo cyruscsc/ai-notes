@@ -1,7 +1,7 @@
 ## Characteristics
 
 - [[Retrieval Augmented Generation|RAG]] relies on external knowledge to enhance LLMs
-- The type of [[retrieval]] source and the granularity of retrieval units both affect the final generation results
+- The type of [[retrieval]] source and the granularity of retrieval units both affect the final [[generation]] results
 
 ## Data structure
 

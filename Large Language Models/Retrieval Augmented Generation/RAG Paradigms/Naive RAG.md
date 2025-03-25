@@ -1,6 +1,6 @@
 ## Characteristics
 
-- Follows a traditional process that includes [[indexing]], [[retrieval]], and generation
+- Follows a traditional process that includes [[indexing]], [[retrieval]], and [[generation]]
 
 ## Indexing
 

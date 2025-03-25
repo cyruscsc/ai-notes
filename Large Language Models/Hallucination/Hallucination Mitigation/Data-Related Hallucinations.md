@@ -31,8 +31,9 @@
 
 ### Iterative retrieval
 
-- Allow for continuously gathering knowledge throughout the generation process
+- Allow for continuously gathering knowledge throughout the [[generation]] process
 - Incorporate external knowledge at each reasoning step and further guide [[retrieval]] process based on ongoing reasoning for chain-of-thought prompting, reducing factual errors in reasoning chains
+- See [[Iterative Retrieval]]
 
 ### Post-hoc retrieval
 

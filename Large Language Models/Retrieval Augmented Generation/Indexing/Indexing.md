@@ -1,6 +1,6 @@
 ## Definition
 
-- Convert external data into embeddings and stored in a vector database
+- Creates a structured representation of external data for efficient retrieval
 
 ## Related issues
 
