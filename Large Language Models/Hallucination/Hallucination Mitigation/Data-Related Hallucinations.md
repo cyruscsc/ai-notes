@@ -26,16 +26,16 @@
 
 ### One-time retrieval
 
-- Directly prepend the external knowledge obtained from a single retrieval to the [[Large Language Models|LLMs]]’ prompt
+- Directly prepend the external knowledge obtained from a single [[retrieval]] to the [[Large Language Models|LLMs]]’ prompt
 - May fall short when confronted with intricate challenges like multi-step reasoning and long-form question answering
 
 ### Iterative retrieval
 
 - Allow for continuously gathering knowledge throughout the generation process
-- Incorporate external knowledge at each reasoning step and further guide retrieval process based on ongoing reasoning for chain-of-thought prompting, reducing factual errors in reasoning chains
+- Incorporate external knowledge at each reasoning step and further guide [[retrieval]] process based on ongoing reasoning for chain-of-thought prompting, reducing factual errors in reasoning chains
 
 ### Post-hoc retrieval
 
 - Research relevant evidence and subsequently revise the initial generation based on detected discrepancies with the evidence
 - May generate verifying questions and then refines the rationales based on retrieved knowledge, ensuring a more factual response
-- May sample various potential answers, allowing for a more comprehensive retrieval feedback
+- May sample various potential answers, allowing for a more comprehensive [[retrieval]] feedback

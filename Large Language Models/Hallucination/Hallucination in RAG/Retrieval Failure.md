@@ -1,6 +1,6 @@
 ## Definition
 
-- Failures in the retrieval stage can have serious downstream effects on the RAG pipeline, leading to hallucinations
+- Failures in the [[retrieval]] stage can have serious downstream effects on the [[Retrieval Augmented Generation|RAG]] pipeline, leading to hallucinations
 
 ##  User queries
 
@@ -64,16 +64,16 @@
 
 ## Retrieval sources
 
-- The reliability and scope of retrieval sources are crucial determinants of the efficacy of RAG systems
+- The reliability and scope of retrieval sources are crucial determinants of the efficacy of [[Retrieval Augmented Generation|RAG]] systems
 - Modern retrieval models tend to favour LLM-generated content over human-authored content
-- Without appropriate intervention, human-generated content may progressively lose its influence within RAG systems
+- Without appropriate intervention, human-generated content may progressively lose its influence within [[Retrieval Augmented Generation|RAG]] systems
 - The propensity of [[Large Language Models|LLMs]] to produce factually inaccurate hallucinations exacerbates the reliability issues of retrieval sources
 - Can incorporate a quality filter designed to ensure the high quality of the retrieval datastore
 - Can equip [[Large Language Models|LLMs]] with the ability to discern and handle information based on its credibility
 
 ## Retriever
 
-- When the user query is explicit and the retrieval source is reliable, the effectiveness of the retrieval process depends crucially on the performance of the retriever
+- When the user query is explicit and the [[retrieval source]] is reliable, the effectiveness of the retrieval process depends crucially on the performance of the retriever
 
 ### Chunking 
 
