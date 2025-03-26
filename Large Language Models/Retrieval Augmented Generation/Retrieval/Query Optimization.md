@@ -12,11 +12,12 @@
 
 - Expand queries via LLMs by employing prompt engineering
 - Queries can then be executed in parallel
+- See [[Multi-Query]]
 
 ### Sub-query
 
 - Generate the necessary sub-questions to contextualize and fully answer the original question
-- A complex question can be decomposed into a series of simpler sub-questions using the least-to-most prompting method
+- A complex question can be decomposed into a series of simpler sub-questions using the [[least-to-most prompting]] method
 
 ### Chain-of-verification (CoVe)
 

@@ -36,3 +36,4 @@ aliases:
 	- [[Augmentation]]
 	- [[Generation]]
 	- [[RAG Evaluation]]
+	- [[Query Translation]]

@@ -60,7 +60,7 @@
 
 - User queries requiring intensive reasoning or encompassing multiple aspects pose significant challenges to the retrieval system
 - Such queries require advanced understanding and decomposition capabilities, which may exceed the current capabilities of the current retrieval methods
-- Can be addressed by query decomposition
+- Can be addressed by query [[decomposition]]
 
 ## Retrieval sources
 

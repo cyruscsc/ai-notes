@@ -28,6 +28,16 @@ aliases:
 - [[Generation]]
 	- [[Content Curation]]
 	- [[Fine-Tuning]]
+- [[RAG Evaluation]]
+- [[Query Translation]]
+	- [[Multi-Query]]
+	- [[RAG-Fusion]]
+	- [[Reciprocal Rank Fusion|RRF]]
+	- [[Decomposition]]
+	- [[Least-to-Most Prompting|LtM]]
+	- [[Iterative Retrieval Chain-of-Thought|IR-CoT]]
+	- [[Step-Back Prompting]]
+	- [[Hypothetical Document EmbeddingsHyDE|HyDE]]
 
 ## Benefits
 
