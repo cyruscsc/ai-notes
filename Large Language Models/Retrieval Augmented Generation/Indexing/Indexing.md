@@ -2,6 +2,14 @@
 
 - Creates a structured representation of external data for efficient retrieval
 
+## Techniques
+
+- [[Multi-Representation Indexing]]
+	- [[Proposition Indexing]]
+	- [[Multi-Vector Retriever]]
+- [[Recursive Abstractive Processing for Tree-Organized Retrieval|RAPTOR]]
+- [[Contextualized Late Interaction BERT|ColBERT]]
+
 ## Related issues
 
 - [[Indexing Optimization]]
