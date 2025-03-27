@@ -31,6 +31,7 @@
 
 - Navigates through diverse data sources
 - Select the optimal pathway for a query, whether it involves summarization, specific database searches, or merging different information streams
+- See [[Routing]]
 
 ### Predict module
 

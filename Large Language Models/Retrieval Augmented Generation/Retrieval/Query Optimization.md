@@ -33,6 +33,7 @@
 ## Query routing
 
 - Route to distinct [[Retrieval Augmented Generation|RAG]] pipeline based on varying queries
+- See [[Routing]]
 
 ### Metadata router/filter
 
