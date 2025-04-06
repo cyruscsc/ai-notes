@@ -1,4 +1,4 @@
-## Evaluation target
+## Evaluation targets
 
 ### Downstream tasks
 
