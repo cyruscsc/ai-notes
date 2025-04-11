@@ -14,4 +14,4 @@
 	> 4. "Kind of cheap and flimsy, not worth it."
 	- Sentences 1 and 3 are positive ("loved", "fun", "best")
 	- Sentences 2 and 4 are negative ("broke", "cheap", "flimsy")
-- Can be used in [[sentiment analysis]]
+- Can be used in [[Sentiment Analysis]]

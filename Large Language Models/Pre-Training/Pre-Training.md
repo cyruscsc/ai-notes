@@ -6,7 +6,7 @@
 ## Characteristics
 
 - The model engages in autoregressive prediction of subsequent tokens within sequences
-- The model gains a general understanding of language [[syntax]] and world knowledge
+- The model gains a general understanding of language [[Syntax]] and world knowledge
 
 ## Objectives
 

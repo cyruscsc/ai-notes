@@ -8,7 +8,7 @@
 ### Encoder
 
 - Processes the input sequence and converts it into a fixed-length context vector or intermediate representation
-	- E.g. [[distributed representation]]
+	- E.g. [[Distributed Representation]]
 - Captures the semantic and syntactic information of the input sequence
 - Typically implemented with [[Recurrent Neural Networks|RNNs]], LSTMs, GRUs, or [[Transformers]]
 

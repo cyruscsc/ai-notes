@@ -1,7 +1,3 @@
-## Definition
-
-- A training architecture whereby each input word is passed through a neural network simultaneously
-
 ## Characteristics
 
 ```plaintext
@@ -28,8 +24,17 @@ sequence ──┤
 > `N`: neural network
 > `R`: encoded representation
 
-- Parallel processing is possible
-- The calculations are fast and accurate
+- Self-attention allows the model to weigh the importance of different parts of the input sequence
+- Capable of capturing long-range dependencies and relationships between tokens efficiently
+- Process entire sequences simultaneously, significantly reducing training time and improving scalability
+
+## Types
+
+- [[Encoder Models]]
+- [[Decoder Models]]
+- [[Encoder-Decoder Models]]
+
+
 
 ## Implementation
 
@@ -53,6 +58,41 @@ decoder         │
 > `W`: previous output word
 > `A`: multi-headed [[Attention|attention]]
 > `O`: next output word
+
+## Pipeline
+
+### Tokenizer
+
+- Splits the input into tokens (words, subwords, or symbols)
+- Maps each token to an integer (token ID)
+- Adds additional inputs that may be useful to the model
+
+### Model
+
+- For each input from the tokenizer, outputs a hidden state (also known as features)
+- The output of the Transformer model is sent directly to the model head to be processed
+
+#### Hidden states
+
+- Each hidden state captures the contextual understanding of that input by the Transformer model
+- A hidden state is a high-dimensional vector that generally has three dimensions:
+	- **Batch size**: The number of sequences processed at a time
+	- **Sequence length**: The length of the numerical representation of the sequence
+	- **Hidden size**: The vector dimension of each model input (commonly 768 for smaller models, 3072 or more for larger models)
+
+#### Model heads
+
+- Take the hidden states as input
+- Project the hidden states into the appropriate dimensionality for a specific task
+	- [[Classification]] tasks: Output logits corresponding to the number of classes
+	- Language modeling: Output logits over the vocabulary size
+- Usually implemented as one or more fully connected (linear) layers
+
+### Postprocessing
+
+- Output logits from model heads are unnormalized scores that need further processing
+- [[Classification]] tasks: Passed through a [[softmax function]] to obtain probabilities
+- Sequence generation tasks: Used with decoding techniques (e.g., greedy search, beam search)
 
 ## Components
 
@@ -90,6 +130,61 @@ decoder         │
 - Pays attention to multiple facets at the same time
 - Each attention head pays attention to something different
 
+## Code examples
 
+### Tokenizer
 
+```python
+from transformers import AutoTokenizer
 
+checkpoint = "distilbert-base-uncased-finetuned-sst-2-english"
+tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+
+raw_inputs = [
+    "I've been waiting for a HuggingFace course my whole life.",
+    "I hate this so much!",
+]
+inputs = tokenizer(raw_inputs, padding=True, truncation=True, return_tensors="pt")
+
+# input tokens
+print(inputs)
+```
+
+### Model
+
+```python
+from transformers import AutoModel
+
+checkpoint = "distilbert-base-uncased-finetuned-sst-2-english"
+model = AutoModel.from_pretrained(checkpoint)
+
+outputs = model(**inputs)
+
+# hidden state
+print(outputs.last_hidden_state.shape)
+```
+
+### Model with sequence classification head
+
+```python
+from transformers import AutoModelForSequenceClassification
+
+checkpoint = "distilbert-base-uncased-finetuned-sst-2-english"
+model = AutoModelForSequenceClassification.from_pretrained(checkpoint)
+
+outputs = model(**inputs)
+
+# logits
+print(outputs.logits.shape)
+```
+
+### Postprocessing with softmax
+
+```python
+import torch
+
+predictions = torch.nn.functional.softmax(outputs.logits, dim=-1)
+
+# probabilities
+print(predictions)
+```

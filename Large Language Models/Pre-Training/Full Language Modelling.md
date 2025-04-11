@@ -14,4 +14,4 @@ aliases:
 - Typically used in decoder-only architectures
 	- E.g., `GPT` series
 - The model learns to generate text by predicting each subsequent word based on the context of all preceding words
-- Maintains a unidirectional (left-to-right) [[attention]] pattern, where each token can only attend to previous tokens in the sequence
+- Maintains a unidirectional (left-to-right) [[Attention]] pattern, where each token can only attend to previous tokens in the sequence

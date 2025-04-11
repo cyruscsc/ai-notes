@@ -1,6 +1,6 @@
 ## Pre-training related
 
-- Centres on the limitations inherent in model architectures, especially unidirectional representation and [[attention]] glitches
+- Centres on the limitations inherent in model architectures, especially unidirectional representation and [[Attention]] glitches
 - Refine [[pre-training]] strategies, ensuring richer context comprehension, and circumventing biases
 - The choice of objective plays a pivotal role in determining the model’s performance
 

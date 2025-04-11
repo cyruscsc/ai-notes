@@ -1,6 +1,6 @@
 ## Models
 
 - [[Markov Model]]
-- [[Bag-Of-Words Model]]
+- [[Bag-Of-Words]]
 - [[Encoder-Decoder]]
 - [[Transformers]]

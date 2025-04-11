@@ -11,7 +11,7 @@
 - Reduces the overall document pool, acting as both an enhancer and a filter
 - Delivers refined inputs for more precise language model processing
 - **Rule-based methods**: depend on predefined metrics such as diversity, relevance, and MRR
-- **Model-based methods**: such as [[encoder-decoder]] models, specialized reranking models, and [[Large Language Models|LLMs]]
+- **Model-based methods**: such as [[Encoder-Decoder]] models, specialized reranking models, and [[Large Language Models|LLMs]]
 
 ## Context selection/compression
 

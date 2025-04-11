@@ -6,7 +6,7 @@
 ## Over-confidence
 
 - Stems from an excessive focus on the partially generated content, often prioritizing fluency at the expense of faithfully adhering to the source context
-- Language models often exhibit a localized focus within their [[attention]] mechanisms, giving priority to nearby words and resulting in a notable deficit in context attention
+- Language models often exhibit a localized focus within their [[Attention]] mechanisms, giving priority to nearby words and resulting in a notable deficit in context attention
 
 ## Softmax bottleneck
 

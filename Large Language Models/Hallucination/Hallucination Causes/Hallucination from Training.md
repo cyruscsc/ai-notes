@@ -1,7 +1,7 @@
 ## Pre-training
 
 - While facilitating efficient training, [[Full Language Modelling|Causal Language Modelling]] inherently limits the ability to capture intricate contextual dependencies, potentially increasing risks for the emergence of [[hallucination]]
-- [[Large Language Models|LLMs]] can occasionally exhibit unpredictable reasoning hallucinations spanning both long-range and short-range dependencies, which potentially arise from the limitations of soft [[attention]]
+- [[Large Language Models|LLMs]] can occasionally exhibit unpredictable reasoning hallucinations spanning both long-range and short-range dependencies, which potentially arise from the limitations of soft [[Attention]]
 - The phenomenon of exposure bias has been a longstanding and serious contribution to hallucinations, resulting from the disparity between training and inference in the auto-regressive generative model
 
 ## Fine-tuning

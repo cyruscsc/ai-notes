@@ -15,9 +15,18 @@ aliases:
 	- [[Context-Free Grammar]]
 - [[NLP Models]]
 	- [[Markov Model]]
-	- [[Bag-Of-Words Model]]
+	- [[Bag-Of-Words]]
 	- [[Encoder-Decoder]]
-	- [[Transformers]]
+- [[Transformers]]
+	- [[Attention]]
+	- [[Encoder Models|Autoencoding Models]]
+	- [[Decoder Models|Autoregressive Models]]
+	- [[Encoder-Decoder Models|Sequence-to-Sequence Models]]
+- [[Large Language Models]]
+	- [[Pre-Training]]
+	- [[Fine-Tuning]]
+	- [[Hallucination]]
+	- [[Retrieval Augmented Generation]]
 - [[Word Representation]]
 	- [[One-Hot Representation]]
 	- [[Distributed Representation]]
@@ -25,7 +34,7 @@ aliases:
 - [[n-grams]]
 - [[Tokenization]]
 - [[Sentiment Analysis]]
-- [[Attention]]
+
 
 ## Applications
 
