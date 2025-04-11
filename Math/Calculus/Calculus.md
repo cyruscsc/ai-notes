@@ -2,7 +2,9 @@
 
 - [[Differentiation]]
 	- [[Derivative]]
+	- [[Partial Derivative]]
 	- [[Critical Point]]
+	- [[Gradient]]
 	- [[Minima and Maxima]]
 	- [[Non-Differentiable Functions]]
 - [[Differentiation Rules]]
