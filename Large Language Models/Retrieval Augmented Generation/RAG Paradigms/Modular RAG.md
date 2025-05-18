@@ -52,7 +52,7 @@
 - **Generate-Read**: Replaces traditional retrieval with LLM-generated content
 - **Recite-Read**: Emphasizes retrieval from model weights, enhancing the model’s ability to handle knowledge-intensive tasks
 - **Hybrid retrieval strategies**: Integrate keyword, semantic, and vector searches to cater to diverse queries
-- **Sub-queries**, **[[Hypothetical Document EmbeddingsHyDE|HyDE]]**: Improve retrieval relevance by focusing on embedding similarities between generated answers and real documents
+- **Sub-queries**, **[[Hypothetical Document Embeddings|HyDE]]**: Improve retrieval relevance by focusing on embedding similarities between generated answers and real documents
 
 ### Adjusting module arrangement
 

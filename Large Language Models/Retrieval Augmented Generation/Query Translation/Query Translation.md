@@ -11,4 +11,4 @@
 	- [[Least-to-Most Prompting|LtM]]
 	- [[Iterative Retrieval Chain-of-Thought|IR-CoT]]
 - [[Step-Back Prompting]]
-- [[Hypothetical Document EmbeddingsHyDE|HyDE]]
+- [[Hypothetical Document Embeddings|HyDE]]
