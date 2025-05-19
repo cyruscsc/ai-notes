@@ -39,3 +39,7 @@ aliases:
 	- [[Augmentation]]
 	- [[Generation]]
 	- [[RAG Evaluation]]
+- [[Agents]]
+	- [[Spectrum of Agency]]
+	- [[Tools]]
+	- [[Thought-Action-Observation Cycle]]
